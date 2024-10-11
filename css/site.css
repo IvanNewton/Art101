@@ -34,3 +34,8 @@ h1 {
   border: solid 5px #b9a7be;
   background-color: #ffffff;
 }
+
+.ivan-photo {
+  margin: 10px;
+  max-width: 350px;
+}
