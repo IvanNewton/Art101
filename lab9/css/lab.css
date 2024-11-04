@@ -1,0 +1,29 @@
+body {
+    background-color: #000000;
+  }
+  
+
+  h1,h2,h3 {
+    font-family: sans-serif;
+  }
+  
+
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 5px #b9a7be;
+    background-color: #ffffff;
+  }
+.special {
+    background-color: lavender;
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
