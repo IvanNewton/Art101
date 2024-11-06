@@ -6,12 +6,6 @@ body {
     font-family: sans-serif;
   }
   
-  h1 {
-    letter-spacing: 5px;
-    word-spacing: 5px;
-    font-size: 200%;
-  }
-  
   #content {
     margin: 10px;
     padding: 10px;
@@ -22,11 +16,13 @@ body {
   .text p {
     display: inline-block;
     max-width: 60%;
-    margin: 3px;
-    padding: 5px 10px;
-    border-radius: 15px;
-    background-color: darkgray;
-    color: white;
-    font-family: sans-serif;
-    font-size: 0.8em;
+    margin-top :5px;
+    padding :10px;
+    border-radius :15px;
+    font-family :'Arial', sans-serif ;
+    font-size :.75em ;
+    color :#FFFFFF ;
   }
+  .imput {
+    color: rgb(255, 0, 0);
+}

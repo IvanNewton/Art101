@@ -17,11 +17,19 @@ function generateRandomText(){
     //Generate the random Lorem Ipsum-like text
     return text.slice(randStart, randStart + randLen);
 }
-
 // click listener for button
-$("#make-convo").click(function(){
+// click listener for button make-convo, appends random length & starting Lorem Ipsum-like text to output div as a message,
+$("#make-convo").click(function () {
     const newText = generateRandomText();
-    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+    $("#output").append('<div class="text left"><p>' + newText + "</p></div>");
 });
 // append a new div to our output div
-
+// append a new div to our output div
+$("#send-user-input").click(function () {
+    // Get user's input
+    const userInput = $("#user-input").val(); 
+    // Append the user's text as a right-aligned message bubble
+    $("#output").append('<div class="text right"><p>' + userInput + "</p></div>");
+   // Clear the input field after sending
+    $("#user-input").val(""); 
+});
