@@ -10,9 +10,10 @@
 // add button to challenge section
 
 
-    // add a click listener to the challenge button
-$("#button-challenge").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("Make Special");
-    $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+// add a click listener to the challenge button
+$(document).ready(function() {
+    $('#button-challenge').click(function() {
+        // Apply the 'special' class when the button is clicked
+        $('#button-challenge').addClass('special');
+    });
 });
